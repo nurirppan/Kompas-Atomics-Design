@@ -29,6 +29,15 @@
 		0E04A6FC27D739A700FC6771 /* LabelAtomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E04A6FB27D739A700FC6771 /* LabelAtomViewModifier.swift */; };
 		0E04A70027D73AFC00FC6771 /* ComperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E04A6FF27D73AFC00FC6771 /* ComperView.swift */; };
 		0E10614C27D777D4007DFF68 /* FuperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E10614B27D777D4007DFF68 /* FuperView.swift */; };
+		0E2848D627D9C7FC0010E0BD /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2848D527D9C7FC0010E0BD /* DashboardView.swift */; };
+		0E2848D927D9C84C0010E0BD /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2848D827D9C84C0010E0BD /* ArticleListView.swift */; };
+		0E2848DC27D9C85E0010E0BD /* EpaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2848DB27D9C85E0010E0BD /* EpaperView.swift */; };
+		0E2848DF27D9C86D0010E0BD /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2848DE27D9C86D0010E0BD /* BookView.swift */; };
+		0E2848E327D9C87C0010E0BD /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2848E227D9C87C0010E0BD /* AccountView.swift */; };
+		0E2848E527D9E1C50010E0BD /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2848E427D9E1C50010E0BD /* SideMenuView.swift */; };
+		0E2848E927D9E2100010E0BD /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2848E827D9E2100010E0BD /* View+Extension.swift */; };
+		0E2848EB27D9E2B00010E0BD /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2848EA27D9E2B00010E0BD /* TopBarView.swift */; };
+		0E2848ED27D9E5020010E0BD /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2848EC27D9E5020010E0BD /* Color+Extension.swift */; };
 		0E61F53127D7A31E00973B22 /* LabelStaticButtonAtomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E61F53027D7A31E00973B22 /* LabelStaticButtonAtomView.swift */; };
 		0E61F53327D7A62D00973B22 /* LabelButtonAtomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E61F53227D7A62D00973B22 /* LabelButtonAtomViewModifier.swift */; };
 		0E61F53527D7AA0400973B22 /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E61F53427D7AA0400973B22 /* PlaylistView.swift */; };
@@ -58,6 +67,15 @@
 		0E04A6FB27D739A700FC6771 /* LabelAtomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelAtomViewModifier.swift; sourceTree = "<group>"; };
 		0E04A6FF27D73AFC00FC6771 /* ComperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComperView.swift; sourceTree = "<group>"; };
 		0E10614B27D777D4007DFF68 /* FuperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuperView.swift; sourceTree = "<group>"; };
+		0E2848D527D9C7FC0010E0BD /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		0E2848D827D9C84C0010E0BD /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		0E2848DB27D9C85E0010E0BD /* EpaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpaperView.swift; sourceTree = "<group>"; };
+		0E2848DE27D9C86D0010E0BD /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		0E2848E227D9C87C0010E0BD /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		0E2848E427D9E1C50010E0BD /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		0E2848E827D9E2100010E0BD /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		0E2848EA27D9E2B00010E0BD /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		0E2848EC27D9E5020010E0BD /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		0E61F53027D7A31E00973B22 /* LabelStaticButtonAtomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStaticButtonAtomView.swift; sourceTree = "<group>"; };
 		0E61F53227D7A62D00973B22 /* LabelButtonAtomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelButtonAtomViewModifier.swift; sourceTree = "<group>"; };
 		0E61F53427D7AA0400973B22 /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
@@ -93,6 +111,7 @@
 		0E04A6CB27D7275300FC6771 /* Kompas Atomics Design */ = {
 			isa = PBXGroup;
 			children = (
+				0E2848E627D9E1EE0010E0BD /* Helper */,
 				0E04A6FE27D73AE900FC6771 /* Presentation */,
 				0E04A6FD27D73AD100FC6771 /* Component */,
 				0E04A6DE27D72BCB00FC6771 /* Constants */,
@@ -155,6 +174,11 @@
 		0E04A6FE27D73AE900FC6771 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				0E2848E027D9C86F0010E0BD /* Account */,
+				0E2848DD27D9C8620010E0BD /* Book */,
+				0E2848DA27D9C84F0010E0BD /* Epaper */,
+				0E2848D727D9C81F0010E0BD /* Article List */,
+				0E2848D427D9C7C80010E0BD /* Dashboard */,
 				0E10614A27D777C5007DFF68 /* Tetopi */,
 			);
 			path = Presentation;
@@ -168,6 +192,65 @@
 				0E61F53427D7AA0400973B22 /* PlaylistView.swift */,
 			);
 			path = Tetopi;
+			sourceTree = "<group>";
+		};
+		0E2848D427D9C7C80010E0BD /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E2848D527D9C7FC0010E0BD /* DashboardView.swift */,
+				0E2848E427D9E1C50010E0BD /* SideMenuView.swift */,
+				0E2848EA27D9E2B00010E0BD /* TopBarView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		0E2848D727D9C81F0010E0BD /* Article List */ = {
+			isa = PBXGroup;
+			children = (
+				0E2848D827D9C84C0010E0BD /* ArticleListView.swift */,
+			);
+			path = "Article List";
+			sourceTree = "<group>";
+		};
+		0E2848DA27D9C84F0010E0BD /* Epaper */ = {
+			isa = PBXGroup;
+			children = (
+				0E2848DB27D9C85E0010E0BD /* EpaperView.swift */,
+			);
+			path = Epaper;
+			sourceTree = "<group>";
+		};
+		0E2848DD27D9C8620010E0BD /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				0E2848DE27D9C86D0010E0BD /* BookView.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		0E2848E027D9C86F0010E0BD /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				0E2848E227D9C87C0010E0BD /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		0E2848E627D9E1EE0010E0BD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0E2848E727D9E1F40010E0BD /* Extension */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0E2848E727D9E1F40010E0BD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0E2848E827D9E2100010E0BD /* View+Extension.swift */,
+				0E2848EC27D9E5020010E0BD /* Color+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,17 +335,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E04A6DB27D7299B00FC6771 /* IconStaticButtonAtomView.swift in Sources */,
+				0E2848ED27D9E5020010E0BD /* Color+Extension.swift in Sources */,
+				0E2848D927D9C84C0010E0BD /* ArticleListView.swift in Sources */,
 				0E04A6F827D72F4A00FC6771 /* Fonts.swift in Sources */,
+				0E2848E927D9E2100010E0BD /* View+Extension.swift in Sources */,
+				0E2848E327D9C87C0010E0BD /* AccountView.swift in Sources */,
 				0E61F53127D7A31E00973B22 /* LabelStaticButtonAtomView.swift in Sources */,
 				0E04A6E027D72BED00FC6771 /* Colors.swift in Sources */,
+				0E2848E527D9E1C50010E0BD /* SideMenuView.swift in Sources */,
 				0E04A6CF27D7275300FC6771 /* ContentView.swift in Sources */,
 				0E04A70027D73AFC00FC6771 /* ComperView.swift in Sources */,
 				0E61F53527D7AA0400973B22 /* PlaylistView.swift in Sources */,
+				0E2848DC27D9C85E0010E0BD /* EpaperView.swift in Sources */,
 				0E04A6CD27D7275300FC6771 /* Kompas_Atomics_DesignApp.swift in Sources */,
+				0E2848EB27D9E2B00010E0BD /* TopBarView.swift in Sources */,
 				0E61F53327D7A62D00973B22 /* LabelButtonAtomViewModifier.swift in Sources */,
 				0E04A6FC27D739A700FC6771 /* LabelAtomViewModifier.swift in Sources */,
 				0E10614C27D777D4007DFF68 /* FuperView.swift in Sources */,
+				0E2848D627D9C7FC0010E0BD /* DashboardView.swift in Sources */,
 				0E04A6FA27D72FD300FC6771 /* Constants.swift in Sources */,
+				0E2848DF27D9C86D0010E0BD /* BookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
