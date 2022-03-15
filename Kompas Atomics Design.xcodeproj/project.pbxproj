@@ -29,6 +29,7 @@
 		0E04A6FC27D739A700FC6771 /* LabelAtomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E04A6FB27D739A700FC6771 /* LabelAtomViewModifier.swift */; };
 		0E04A70027D73AFC00FC6771 /* ComperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E04A6FF27D73AFC00FC6771 /* ComperView.swift */; };
 		0E10614C27D777D4007DFF68 /* FuperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E10614B27D777D4007DFF68 /* FuperView.swift */; };
+		0E21BC2127DF16B40006FF43 /* DividerAtomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E21BC2027DF16B40006FF43 /* DividerAtomView.swift */; };
 		0E2848D627D9C7FC0010E0BD /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2848D527D9C7FC0010E0BD /* DashboardView.swift */; };
 		0E2848D927D9C84C0010E0BD /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2848D827D9C84C0010E0BD /* ArticleListView.swift */; };
 		0E2848DC27D9C85E0010E0BD /* EpaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2848DB27D9C85E0010E0BD /* EpaperView.swift */; };
@@ -67,6 +68,7 @@
 		0E04A6FB27D739A700FC6771 /* LabelAtomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelAtomViewModifier.swift; sourceTree = "<group>"; };
 		0E04A6FF27D73AFC00FC6771 /* ComperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComperView.swift; sourceTree = "<group>"; };
 		0E10614B27D777D4007DFF68 /* FuperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuperView.swift; sourceTree = "<group>"; };
+		0E21BC2027DF16B40006FF43 /* DividerAtomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerAtomView.swift; sourceTree = "<group>"; };
 		0E2848D527D9C7FC0010E0BD /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		0E2848D827D9C84C0010E0BD /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
 		0E2848DB27D9C85E0010E0BD /* EpaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpaperView.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				0E04A6FB27D739A700FC6771 /* LabelAtomViewModifier.swift */,
 				0E61F53027D7A31E00973B22 /* LabelStaticButtonAtomView.swift */,
 				0E61F53227D7A62D00973B22 /* LabelButtonAtomViewModifier.swift */,
+				0E21BC2027DF16B40006FF43 /* DividerAtomView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E04A6DB27D7299B00FC6771 /* IconStaticButtonAtomView.swift in Sources */,
+				0E21BC2127DF16B40006FF43 /* DividerAtomView.swift in Sources */,
 				0E2848ED27D9E5020010E0BD /* Color+Extension.swift in Sources */,
 				0E2848D927D9C84C0010E0BD /* ArticleListView.swift in Sources */,
 				0E04A6F827D72F4A00FC6771 /* Fonts.swift in Sources */,

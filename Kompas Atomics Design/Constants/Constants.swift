@@ -28,6 +28,8 @@ enum Constants {
         case arsenic36 = "Arsenic 36"
         /// #E9F5FD
         case aliceBlue = "Alice Blue"
+        /// #000000
+        case black = "Black"
     }
     
     /// Fonts
