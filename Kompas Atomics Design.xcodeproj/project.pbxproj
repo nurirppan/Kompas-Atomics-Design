@@ -42,6 +42,7 @@
 		0E61F53127D7A31E00973B22 /* LabelStaticButtonAtomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E61F53027D7A31E00973B22 /* LabelStaticButtonAtomView.swift */; };
 		0E61F53327D7A62D00973B22 /* LabelButtonAtomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E61F53227D7A62D00973B22 /* LabelButtonAtomViewModifier.swift */; };
 		0E61F53527D7AA0400973B22 /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E61F53427D7AA0400973B22 /* PlaylistView.swift */; };
+		93303C2824F06AE4ABC7C331 /* Pods_Kompas_Atomics_Design.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDFC67BDE566C979F5F7DAB /* Pods_Kompas_Atomics_Design.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,9 @@
 		0E61F53027D7A31E00973B22 /* LabelStaticButtonAtomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStaticButtonAtomView.swift; sourceTree = "<group>"; };
 		0E61F53227D7A62D00973B22 /* LabelButtonAtomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelButtonAtomViewModifier.swift; sourceTree = "<group>"; };
 		0E61F53427D7AA0400973B22 /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		6DDABEB99AC9881E58C761CA /* Pods-Kompas Atomics Design.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kompas Atomics Design.release.xcconfig"; path = "Target Support Files/Pods-Kompas Atomics Design/Pods-Kompas Atomics Design.release.xcconfig"; sourceTree = "<group>"; };
+		811665BB3C0203B0E38AFFB1 /* Pods-Kompas Atomics Design.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kompas Atomics Design.debug.xcconfig"; path = "Target Support Files/Pods-Kompas Atomics Design/Pods-Kompas Atomics Design.debug.xcconfig"; sourceTree = "<group>"; };
+		EBDFC67BDE566C979F5F7DAB /* Pods_Kompas_Atomics_Design.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kompas_Atomics_Design.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93303C2824F06AE4ABC7C331 /* Pods_Kompas_Atomics_Design.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +104,8 @@
 			children = (
 				0E04A6CB27D7275300FC6771 /* Kompas Atomics Design */,
 				0E04A6CA27D7275300FC6771 /* Products */,
+				1ED7CA0FBA0689BF727C1168 /* Pods */,
+				3974898C2A7DFB320D0CE417 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -256,6 +263,23 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		1ED7CA0FBA0689BF727C1168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				811665BB3C0203B0E38AFFB1 /* Pods-Kompas Atomics Design.debug.xcconfig */,
+				6DDABEB99AC9881E58C761CA /* Pods-Kompas Atomics Design.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3974898C2A7DFB320D0CE417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBDFC67BDE566C979F5F7DAB /* Pods_Kompas_Atomics_Design.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -263,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E04A6D727D7275400FC6771 /* Build configuration list for PBXNativeTarget "Kompas Atomics Design" */;
 			buildPhases = (
+				0B55F8EFA3B7B7C87C5F7957 /* [CP] Check Pods Manifest.lock */,
 				0E04A6C527D7275300FC6771 /* Sources */,
 				0E04A6C627D7275300FC6771 /* Frameworks */,
 				0E04A6C727D7275300FC6771 /* Resources */,
+				41FE2238F0C42137FD0C6463 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -331,6 +357,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B55F8EFA3B7B7C87C5F7957 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kompas Atomics Design-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41FE2238F0C42137FD0C6463 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kompas Atomics Design/Pods-Kompas Atomics Design-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kompas Atomics Design/Pods-Kompas Atomics Design-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kompas Atomics Design/Pods-Kompas Atomics Design-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E04A6C527D7275300FC6771 /* Sources */ = {
@@ -483,6 +551,7 @@
 		};
 		0E04A6D827D7275400FC6771 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811665BB3C0203B0E38AFFB1 /* Pods-Kompas Atomics Design.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -513,6 +582,7 @@
 		};
 		0E04A6D927D7275400FC6771 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DDABEB99AC9881E58C761CA /* Pods-Kompas Atomics Design.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

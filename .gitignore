@@ -88,3 +88,11 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+Pods
+contents.xcworkspacedata
+Kompas Atomics Design.xcworkspace/xcshareddata
+Packaging.log
+ExportOptions.plist
+DistributionSummary.plist
+app-thinning.plist
+App Thinning Size Report.txt

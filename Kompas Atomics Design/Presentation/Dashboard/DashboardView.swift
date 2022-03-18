@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FBSDKCoreKit
 
 
 struct DashboardView: View {
@@ -14,6 +15,7 @@ struct DashboardView: View {
     // Hiding Native One...
     init(){
         UITabBar.appearance().isHidden = true
+        AppEvents.shared.logEvent(.viewedContent)
     }
     
     @State var currentTab = "Home"
@@ -30,7 +32,7 @@ struct DashboardView: View {
         let sideBarWidth = getRect().width - 90
         
         // Whole Navigation View....
-        NavigationView{
+        NavigationView {
             
             HStack(spacing: 0){
                 
@@ -136,6 +138,9 @@ struct DashboardView: View {
         }
         .onChange(of: gestureOffset) { newValue in
             onChange()
+        }
+        .onAppear {
+            AppEvents.shared.logEvent(.viewedContent)
         }
     }
     
